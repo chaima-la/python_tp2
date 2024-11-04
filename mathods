@@ -1,0 +1,36 @@
+return only string msg.isalpha()
+bool(re.match('^[a-zA-Z]+$',text))
+retunr only degits re.findall(r"\d",text)
+    Character Classes:
+
+\w: Matches any alphanumeric character (equivalent to [a-zA-Z0-9_]).
+\s: Matches any whitespace character (spaces, tabs, newlines).
+\D: Matches any non-digit character (opposite of \d).
+\W: Matches any non-word character (opposite of \w).
+\S: Matches any non-whitespace character (opposite of \s).
+Specific Characters:
+
+[abc]: Matches any one of the characters 'a', 'b', or 'c'.
+[^abc]: Matches any character not listed (negation).
+Ranges:
+
+[0-9]: Matches any digit (equivalent to \d).
+[a-z]: Matches any lowercase letter.
+[A-Z]: Matches any uppercase letter.
+[a-zA-Z]: Matches any letter, regardless of case.
+Quantifiers:
+
+*: Matches 0 or more occurrences of the preceding element.
++: Matches 1 or more occurrences of the preceding element.
+?: Matches 0 or 1 occurrence of the preceding element.
+{n}: Matches exactly n occurrences of the preceding element.
+{n,}: Matches n or more occurrences.
+{n,m}: Matches between n and m occurrences.
+Anchors:
+
+^: Matches the start of a string.
+$: Matches the end of a string.
+Groups:
+
+(abc): Matches the exact sequence 'abc'.
+(?:abc): Matches 'abc' but does not create a capturing group.

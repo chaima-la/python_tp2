@@ -1,0 +1,6 @@
+all methods 
+    re.search(r"\.",txt) return object about the .
+    re.findall(pattern,txt) return list of all matches
+    re.match(pattern, date_str)    
+
+. any char \. real dot
